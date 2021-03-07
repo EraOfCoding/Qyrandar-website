@@ -1,0 +1,16 @@
+.footer-container {
+  margin: 0;
+  padding: 0 20px;
+  color: whitesmoke;
+  width: auto;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(223, 22, 49);
+}
+
+.footer-container p {
+  font-size: 1rem;
+  width: auto;
+}

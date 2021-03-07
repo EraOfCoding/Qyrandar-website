@@ -1,0 +1,129 @@
+.main {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.main h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 0;
+  padding: 0;
+  margin: 0vh 7vw 12vh 7vw;
+}
+
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.main p {
+  width: 50vw;
+}
+
+.welcome {
+  background-image: url(../img/bg.jpeg);
+  background-color: rgba(51, 70, 87, 0.842);
+  background-blend-mode: overlay;
+  background-size: cover;
+  height: 400px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-items {
+  /* backdrop-filter: blur(2px); */
+  height: 300px;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome > h3 {
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+
+.intro {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.robot-text {
+  display: flex;
+  justify-content: center;
+}
+
+.team-members {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .main p {
+    width: 80vw;
+  }
+
+  #about-team {
+    height: 140px !important;
+  }
+}
+
+:is(#about-team, #tm-text) {
+  margin: 0;
+  color: whitesmoke;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-team {
+  background-color: rgb(245, 51, 93);
+}
+
+#tm-text {
+  background-color: rgb(245, 51, 83);
+}
+
+:is(#margulan, #yerassyl, #temirlan, #daria) {
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 10px;
+}
+
+:is(#margulan, #yerassyl, #temirlan, #daria):hover {
+  text-decoration: underline;
+}
+
+#margulan::before {
+  content: "🛠";
+}
+#yerassyl::before {
+  content: "🎮";
+}
+#temirlan::before {
+  content: "💻";
+}
+#daria::before {
+  content: "📘";
+}
