@@ -1,3 +1,7 @@
+# We are 1737A VEX robotics team from Kazakhstan
+This is our website repository! 
+Check out website: https://qyrandar-robotics.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
