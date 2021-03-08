@@ -14,9 +14,9 @@ class News extends React.Component  {
                     click: "https://github.com/EraOfCoding/Qyrandar-website.git",
                 },
                 {
-                    heading: "Happy Friday! 🤩",
-                    text: "Happy Friday everyone!",
-                    color: "slideshow-lime",
+                    heading: "Happy international women's day! 🤩",
+                    text: "We wish you a good day!",
+                    color: "slideshow-red",
                     click: 0,
                 },
             ],

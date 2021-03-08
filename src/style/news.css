@@ -51,10 +51,6 @@ div[class^="slideshow"] {
   background-color: rgb(201, 201, 201);
 }
 
-.slideshow1 {
-  background-image: url(../img/icon.jpeg);
-}
-
 .sw-child {
   text-align: center;
   display: flex;
