@@ -1,6 +1,5 @@
 import React from 'react'
 import '../style/footer.css'
-import github_logo from '../img/github_logo.jpg'
 
 function Footer() {
     return(
