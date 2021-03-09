@@ -10,7 +10,11 @@
   background-color: rgb(223, 22, 49);
 }
 
-.footer-container p {
+.footer-h1 {
+  font-size: 1.9rem;
+}
+
+.footer-p {
   font-size: 1rem;
   width: auto;
 }

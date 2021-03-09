@@ -82,7 +82,8 @@ p {
     width: 80vw;
   }
 
-  #about-team {
+  #about-team,
+  #tm-text {
     height: 140px !important;
   }
 }
@@ -95,6 +96,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 #about-team {

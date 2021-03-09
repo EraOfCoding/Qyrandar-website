@@ -4,11 +4,6 @@
   align-items: center;
 }
 
-.news div div h3,
-.news div div p {
-  transition: 500ms;
-}
-
 #news {
   margin: 0;
   color: whitesmoke;
@@ -22,7 +17,6 @@
 
 div[class^="slideshow"] {
   background-size: contain;
-  transition: 500ms;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -108,4 +102,27 @@ div[class^="slideshow"] {
 
 .dot-pointer {
   background-color: rgb(136, 136, 136);
+}
+
+@media only screen and (max-width: 700px) {
+  .sw-child {
+    width: 100%;
+  }
+
+  .news h3 {
+    font-size: 1.5rem !important;
+    width: 110%;
+  }
+
+  .news p {
+    font-size: 1.3rem !important;
+    width: 110%;
+  }
+
+  .next {
+    padding-left: 30px;
+  }
+  .prev {
+    padding-right: 30px;
+  }
 }

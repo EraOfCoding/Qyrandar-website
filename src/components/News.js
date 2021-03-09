@@ -14,9 +14,9 @@ class News extends React.Component  {
                     click: "https://github.com/EraOfCoding/Qyrandar-website.git",
                 },
                 {
-                    heading: "Happy international women's day! 🤩",
-                    text: "We wish you a good day!",
-                    color: "slideshow-red",
+                    heading: "VEX worlds is being cancelled and it will be in online format",
+                    text: "But we won't give up! We will try our best to get VEX Worlds spot!",
+                    color: "slideshow-lime",
                     click: 0,
                 },
             ],
@@ -35,6 +35,7 @@ class News extends React.Component  {
         console.log(this.state.slide_number)
     }
 
+    /* add extra functions whenever you add news or events to state "I know, it's a bad system but I'll try to fix it" */
     setSlide0 = () => {
         this.setState({slide_number: 0})
     }
@@ -59,6 +60,7 @@ class News extends React.Component  {
                     
                 </div>
                 <div className="slide-num">
+                    {/* add extra span tag whenever you add news or events to state "I know, it's a bad system but I'll try to fix it" */}
                     <span onClick={this.setSlide0} className={this.state.slide_number == 0 ? "dot-pointer" : "dot-nonpointer"}></span>
                     <span onClick={this.setSlide1} className={this.state.slide_number == 1 ? "dot-pointer" : "dot-nonpointer"}></span>
                 </div>
